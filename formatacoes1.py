@@ -54,5 +54,61 @@ valor1 = 1.3452
 valor2 = 231.442
 valor3 =  23441.3
 
+#formatação float
+
 os.system( "cls")
+
+print(f"""
+produto 1: R$ {produto1:10.2f}
+produto 1: R$ {produto1:10.2f}
+produto 1: R$ {produto1:10.2f}
+produto 1: R$ {valor1:10.2f}   
+      """)
+
+print(f"""
+Valor 1: R$ {valor1:10.2f}
+Valor 1: R$ {valor2:10.2f}
+Valor 1: R$ {valor3:10.2f}      
+      """)
+
+print(f"""
+Valor 1: R$ {valor1:10.2f}
+Valor 1: R$ {valor2:10.2f}
+Valor 1: R$ {valor3:10.2f}      
+      """)
+
+
+
+#formatação int ( corrigir em cada :05d)
+
+
+
+print(f"""
+produto 1: R$ {produto1:05d}
+produto 1: R$ {produto1:10.2f}
+produto 1: R$ {produto1:10.2f}
+produto 1: R$ {valor1:10.2f}   
+      """)
+
+print(f"""
+Valor 1: R$ {valor1:10.2f}
+Valor 1: R$ {valor2:10.2f}
+Valor 1: R$ {valor3:10.2f}      
+      """)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#formatação str e outros
+
 
